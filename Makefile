@@ -4,7 +4,8 @@
 
 update: .dev-install
 	pip-compile --output-file=requirements.txt requirements.in
-	pip-sync requirements.txt
+	pip-compile --extra dev -o requirements-dev.txt pyproject.toml
+	pip-sync requirements.txt requirements-dev.txt
 	${MAKE} install
 
 requirements.txt: .dev-install
@@ -24,9 +25,6 @@ lint-check:
 	black --check --diff azure_form_recogniser panels
 	ruff check azure_form_recogniser panels
 
-.publish-install:
-	pip install twine build python-semantic-release
-	touch .publish-install
 
 update-version: .publish-install
 	${MAKE} update

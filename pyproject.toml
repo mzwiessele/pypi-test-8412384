@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 
 [project]
-name = "pypi-test-8412384"
+name = "pypi_test_8412384"
 authors = [
     {name = "Max Zwiessele", email = "max.zwiessele@fefundinfo.com"},
     {name = "AI Enhanced Services Team", email = "ai_team@fefundinfo.con"},
@@ -18,20 +18,24 @@ classifiers = [
 dynamic = ["dependencies", "version"]
 
 [project.scripts]
-eic = "pypi-test-8412384.cli.main:cli"
+test-cli = "pypi_test_8412384.cli.main:cli"
 
 
 [tool.setuptools.dynamic]
 dependencies = { file = ["requirements.txt"] }
-version = {attr = "pypi-test-8412384.VERSION"}
+version = {attr = "pypi_test_8412384.VERSION"}
+
+
+[project.optional-dependencies]
+dev = ["black", "pytest", "pytest-cov", "pytest-mock", "ruff", "twine", "build", "python-semantic-release"]
 
 
 [tool.semantic_release]
-version_variable = "pypi-test-8412384.VERSION"
+version_variable = "pypi_test_8412384.VERSION"
 
 
 [tool.setuptools]
-packages = ["pypi-test-8412384"]
+packages = ["pypi_test_8412384"]
 
 
 [tool.ruff]
