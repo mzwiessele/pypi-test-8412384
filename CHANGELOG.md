@@ -2,6 +2,13 @@
 
 
 
+## v0.0.3 (2023-12-06)
+
+### Fix
+
+* fix: semantic version version ([`46e5d0c`](https://github.com/mzwiessele/pypi-test-8412384/commit/46e5d0c483c5d292b2f9ca00fa00d1b39a7bc40a))
+
+
 ## v0.0.2 (2023-12-06)
 
 ### Fix
