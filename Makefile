@@ -28,3 +28,8 @@ lint-check:
 	pip install twine build python-semantic-release
 	touch .publish-install
 
+update-version: .publish-install
+	semantic-release version
+
+publish: .publish-install
+	semantic-release publish
