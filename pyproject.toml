@@ -31,7 +31,7 @@ dev = ["black", "pytest", "pytest-cov", "pytest-mock", "ruff", "twine", "build",
 
 
 [tool.semantic_release]
-version_variable = "pypi_test_8412384.VERSION"
+version_variable = "pypi_test_8412384/__init__.py:VERSION"
 
 
 [tool.setuptools]

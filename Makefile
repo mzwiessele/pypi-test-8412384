@@ -26,7 +26,7 @@ lint-check:
 	ruff check azure_form_recogniser panels
 
 
-update-version: .publish-install
+version: .publish-install
 	${MAKE} update
 	semantic-release version
 
