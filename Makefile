@@ -2,7 +2,7 @@
 	pip install pip-tools
 	touch .dev-install
 
-update: 
+update: .dev-install
 	pip-compile --output-file=requirements.txt requirements.in
 	pip-sync requirements.txt
 	${MAKE} install
@@ -29,6 +29,7 @@ lint-check:
 	touch .publish-install
 
 update-version: .publish-install
+	${MAKE} update
 	semantic-release version
 
 publish: .publish-install

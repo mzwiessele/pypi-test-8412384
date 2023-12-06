@@ -5,7 +5,7 @@ import click
 
 @click.group()
 def cli():
-    """Azure Form Recogniser CLI."""
+    """CLI Entrypoint."""
     ...
 
 
