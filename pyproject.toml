@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "pypi-test-8412384"
+authors = [
+    {name = "Max Zwiessele", email = "max.zwiessele@fefundinfo.com"},
+    {name = "AI Enhanced Services Team", email = "ai_team@fefundinfo.con"},
+]
+description = "Training and running email intent AI models in python"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dynamic = ["dependencies", "version"]
+
+[project.scripts]
+eic = "pypi-test-8412384.cli.main:cli"
+
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+version = {attr = "pypi-test-8412384.VERSION"}
+
+
+[tool.semantic_release]
+version_variable = "pypi-test-8412384.VERSION"
+
+
+[tool.setuptools]
+packages = ["pypi-test-8412384"]
+
+
+[tool.ruff]
+extend-select = [
+    "N", # Naming conventions
+    "F", "I", # Imports
+    "E", "W", # Codestyle
+    "D2", "D4" # Docstyle
+]
+extend-ignore = ["D212", "D211"]
+line-length = 80
+target-version = "py311"
+fix = true
+
+
+[tool.black]
+line-length = 80
