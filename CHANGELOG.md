@@ -2,6 +2,13 @@
 
 
 
+## v0.0.2 (2023-12-06)
+
+### Fix
+
+* fix: version ([`4db30d6`](https://github.com/mzwiessele/pypi-test-8412384/commit/4db30d600736209b4f636893d53d1ed963ea81ad))
+
+
 ## v0.0.1 (2023-12-06)
 
 ### Build
