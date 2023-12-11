@@ -18,12 +18,12 @@ clean:
 	rm -f requirements.txt
 
 lint:
-	black azure_form_recogniser panels
-	ruff --fix azure_form_recogniser panels
+	black pypi_test_8412384
+	ruff --fix pypi_test_8412384
 
 lint-check:
-	black --check --diff azure_form_recogniser panels
-	ruff check azure_form_recogniser panels
+	black --check --diff pypi_test_8412384
+	ruff check pypi_test_8412384
 
 
 version: .publish-install
