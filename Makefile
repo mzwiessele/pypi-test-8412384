@@ -28,7 +28,11 @@ lint-check:
 
 version: .publish-install
 	${MAKE} update
+	git add requirements.txt requirements-dev.txt
 	semantic-release version
+
+version-local: .publish-install
+	semantic-release version 
 
 publish: .publish-install
 	semantic-release publish

@@ -35,6 +35,9 @@ version_variables = [
     "pypi_test_8412384/__init__.py:VERSION"
 ]
 
+[tool.semantic_release.remote]
+ignore_token_for_push = true
+
 
 [tool.setuptools]
 packages = ["pypi_test_8412384"]
