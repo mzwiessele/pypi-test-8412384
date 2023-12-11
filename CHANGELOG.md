@@ -2,6 +2,13 @@
 
 
 
+## v0.0.7 (2023-12-11)
+
+### Fix
+
+* fix: noop ([`7db8a80`](https://github.com/mzwiessele/pypi-test-8412384/commit/7db8a80c07ceacad25e12d2f926772640171113b))
+
+
 ## v0.0.6 (2023-12-11)
 
 ### Fix
