@@ -2,6 +2,13 @@
 
 
 
+## v0.0.6 (2023-12-11)
+
+### Fix
+
+* fix: gh setup ([`281c0a6`](https://github.com/mzwiessele/pypi-test-8412384/commit/281c0a61c1d207c75e3ec99fae30ca6ea77f4a59))
+
+
 ## v0.0.5 (2023-12-11)
 
 ### Fix
