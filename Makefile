@@ -3,13 +3,13 @@
 	touch .dev-install
 
 update: .dev-install
-	pip-compile --output-file=requirements.txt requirements.in
+	pip-compile --output-file=requirements.txt requirements.in --strip-extras
 	pip-compile --extra dev -o requirements-dev.txt pyproject.toml
 	pip-sync requirements.txt requirements-dev.txt
 	${MAKE} install
 
 requirements.txt: .dev-install
-	pip-compile --upgrade --output-file=requirements.txt requirements.in
+	pip-compile --upgrade --output-file=requirements.txt requirements.in --strip-extras
 
 install: requirements.txt
 	pip install -e .
