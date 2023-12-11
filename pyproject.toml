@@ -39,6 +39,9 @@ version_variables = [
 [tool.semantic_release.remote]
 ignore_token_for_push = true
 
+[tool.semantic_release.publish]
+dist_glob_patterns = ["dist/*"]
+upload_to_vcs_release = false
 
 [tool.setuptools]
 packages = ["pypi_test_8412384"]
