@@ -2,6 +2,17 @@
 
 
 
+## v0.0.4 (2023-12-11)
+
+### Build
+
+* build: version ([`c7962a7`](https://github.com/mzwiessele/pypi-test-8412384/commit/c7962a78f7650a924871dcd6e8eea6c770d797ab))
+
+### Fix
+
+* fix: lint ([`67a2f59`](https://github.com/mzwiessele/pypi-test-8412384/commit/67a2f5998834b6afee8c0777330c610137a8a50e))
+
+
 ## v0.0.3 (2023-12-06)
 
 ### Fix
