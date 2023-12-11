@@ -2,6 +2,13 @@
 
 
 
+## v0.0.5 (2023-12-11)
+
+### Fix
+
+* fix: make ([`3346a07`](https://github.com/mzwiessele/pypi-test-8412384/commit/3346a07de1197b756439d6f4426f1d179af780d1))
+
+
 ## v0.0.4 (2023-12-11)
 
 ### Build
