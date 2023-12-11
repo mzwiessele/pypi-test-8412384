@@ -17,6 +17,7 @@ classifiers = [
 ]
 dynamic = ["dependencies", "version"]
 
+
 [project.scripts]
 test-cli = "pypi_test_8412384.cli.main:cli"
 
