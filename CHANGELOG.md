@@ -2,6 +2,13 @@
 
 
 
+## v0.1.5 (2023-12-12)
+
+### Fix
+
+* fix: use bump-my-version ([`1850f2a`](https://github.com/mzwiessele/pypi-test-8412384/commit/1850f2aa3b76b81e02cc54d29c0152814d6b26c4))
+
+
 ## v0.1.4 (2023-12-11)
 
 
