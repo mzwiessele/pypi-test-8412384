@@ -32,7 +32,7 @@ version: .publish-install
 	semantic-release version
 
 version-local: .publish-install
-	semantic-release version 
+	semantic-release -vv version --no-push
 
 publish: .publish-install
 	semantic-release publish

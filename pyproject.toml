@@ -28,20 +28,12 @@ version = {attr = "pypi_test_8412384.VERSION"}
 
 
 [project.optional-dependencies]
-dev = ["black", "pytest", "pytest-cov", "pytest-mock", "ruff", "twine", "build", "python-semantic-release"]
-
-
-[tool.semantic_release]
-version_variables = [
-    "pypi_test_8412384/__init__.py:VERSION"
+dev = [
+    "black", "ruff", 
+    "pytest", "pytest-cov", "pytest-mock",
+    "twine", "build", "bump-my-version"
 ]
 
-[tool.semantic_release.remote]
-ignore_token_for_push = true
-
-[tool.semantic_release.publish]
-dist_glob_patterns = ["dist/*"]
-upload_to_vcs_release = false
 
 [tool.setuptools]
 packages = ["pypi_test_8412384"]
@@ -62,3 +54,32 @@ fix = true
 
 [tool.black]
 line-length = 80
+
+
+[tool.bumpversion]
+allow_dirty = false
+commit = false
+message = "Bump version: {current_version} → {new_version}"
+commit_args = ""
+tag = false
+sign_tags = false
+tag_name = "v{new_version}"
+tag_message = "Bump version: {current_version} → {new_version}"
+parse = "(?P<major>\\d+)\\.(?P<minor>\\d+)\\.(?P<patch>\\d+)"
+serialize = [
+    "{major}.{minor}.{patch}"
+]
+search = "{current_version}"
+replace = "{new_version}"
+
+[[tool.bumpversion.files]]
+filename = "pypi_test_8412384/__init__.py"
+
+[[tool.bumpversion.files]]
+filename = "CHANGELOG.md"
+search = "Unreleased"
+
+[[tool.bumpversion.files]]
+filename = "CHANGELOG.md"
+search = "{current_version}...HEAD"
+replace = "{current_version}...{new_version}"
