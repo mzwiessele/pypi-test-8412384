@@ -41,6 +41,8 @@ version_variables = [
     "pypi_test_8412384/__init__.py:VERSION"
 ]
 build_command = "pip install build && python -m build"
+git_committer_name = "Autoversion"
+git_committer_email = "ai-team@fefundinfo.com"
 
 [tool.semantic_release.remote]
 name = "origin"
