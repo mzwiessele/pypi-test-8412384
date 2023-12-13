@@ -2,6 +2,29 @@
 
 
 
+## v0.2.0 (2023-12-13)
+
+### Breaking
+
+* breaking: add ci ([`1d8da19`](https://github.com/mzwiessele/pypi-test-8412384/commit/1d8da19402ae9c1fb29afc3246c1ca848649ae7b))
+
+### Chore
+
+* chore: run ci ([`3e8a9a9`](https://github.com/mzwiessele/pypi-test-8412384/commit/3e8a9a914f38f01de033a07c9afc46871981fbc8))
+
+### Feature
+
+* feat: new feature ([`3bb99c9`](https://github.com/mzwiessele/pypi-test-8412384/commit/3bb99c925ca74ba0a1e244036c9bfe06c6370a68))
+
+* feat: enable ci ([`998cc0d`](https://github.com/mzwiessele/pypi-test-8412384/commit/998cc0d1dcfa3d594a7cdd08800a3c4771f63f87))
+
+### Unknown
+
+* major: version bump ([`de8f668`](https://github.com/mzwiessele/pypi-test-8412384/commit/de8f66827c57a097b3027466f2d4f28b35800d01))
+
+* major: updated package ([`95d58ee`](https://github.com/mzwiessele/pypi-test-8412384/commit/95d58ee9d8b0d4150252bec602d12856a54bea33))
+
+
 ## v0.1.5 (2023-12-12)
 
 ### Fix
