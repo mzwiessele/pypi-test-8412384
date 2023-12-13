@@ -26,7 +26,8 @@ jobs:
       run: git add requirements.txt requirements-dev.txt	
 
     - name: Add requirements to version
-      run: git commit -m "chore: update requirements"
+      run: |
+        git commit -m "chore: update requirements"
 
     - name: Python Semantic Release
       uses: python-semantic-release/python-semantic-release@master
