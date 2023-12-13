@@ -2,6 +2,33 @@
 
 
 
+## v0.3.0 (2023-12-13)
+
+### Build
+
+* build: build ocmmand ([`e1ad523`](https://github.com/mzwiessele/pypi-test-8412384/commit/e1ad5235f44c061ee8e8a275be78b4ba1e772809))
+
+### Chore
+
+* chore: update requirements ([`fd1eb76`](https://github.com/mzwiessele/pypi-test-8412384/commit/fd1eb766be44489cbf515b8a2d0503283c78739c))
+
+### Feature
+
+* feat: requirements ([`265aa19`](https://github.com/mzwiessele/pypi-test-8412384/commit/265aa19e10631da4b198b7167c02bfe369dc277e))
+
+* feat: requirements ([`cd2aa4f`](https://github.com/mzwiessele/pypi-test-8412384/commit/cd2aa4faaa84a77dc14c66b9b6f0d82aa4438e61))
+
+* feat: requirements ([`6ebddb9`](https://github.com/mzwiessele/pypi-test-8412384/commit/6ebddb9c48e2ffe237d48ad371283e4770e89768))
+
+* feat: requirements ([`ca661e3`](https://github.com/mzwiessele/pypi-test-8412384/commit/ca661e3f403f8a309dbe9f9277e01ce809c6208b))
+
+* feat: requirements ([`604502a`](https://github.com/mzwiessele/pypi-test-8412384/commit/604502afff63122f60aca69ef89cf1e93999b75f))
+
+### Fix
+
+* fix: install ([`c8fe809`](https://github.com/mzwiessele/pypi-test-8412384/commit/c8fe8096e3412f2120137a47ea8c21cc266a609d))
+
+
 ## v0.2.0 (2023-12-13)
 
 ### Breaking
