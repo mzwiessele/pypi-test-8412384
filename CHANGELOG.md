@@ -2,6 +2,23 @@
 
 
 
+## v0.4.0 (2023-12-13)
+
+### Breaking
+
+* breaking: we are no longer backwards compatible ([`3d9f96e`](https://github.com/mzwiessele/pypi-test-8412384/commit/3d9f96e73fe028d1f2b8135e9c48fb49db974445))
+
+### Chore
+
+* chore: continue on error ([`ce87caa`](https://github.com/mzwiessele/pypi-test-8412384/commit/ce87caafa13aa01092d5c59af6324fd604416340))
+
+* chore: git committer name ([`8e30a65`](https://github.com/mzwiessele/pypi-test-8412384/commit/8e30a65ddba4042c3154085653bb87423c82bad0))
+
+### Feature
+
+* feat: awesome new feature ([`ca51267`](https://github.com/mzwiessele/pypi-test-8412384/commit/ca512675796c6a9cf4588a322c319beb70102ef4))
+
+
 ## v0.3.0 (2023-12-13)
 
 ### Build
